@@ -434,7 +434,7 @@ const DashboardView = memo(({
                 }}
                 formatter={(value, name) => [
                   `$${value?.toLocaleString()}`,
-                  name === 'actual' ? 'Actual Cash Flow' : 'AI Predicted Cash Flow'
+                  name === 'Actual' ? 'Actual Cash Flow' : 'AI Predicted Cash Flow'
                 ]}
               />
               <Line
